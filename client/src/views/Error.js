@@ -5,7 +5,7 @@ import { Link } from '@reach/router';
 const Error = (props) => {
     return (
         <div>
-            <p>Sorry, the author you are looking for does not exist</p>
+            <p className="text-secondary">Sorry, the author you are looking for does not exist</p>
             <Link to="/">Home</Link>
         </div>
     )

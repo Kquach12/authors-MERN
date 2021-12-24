@@ -23,7 +23,7 @@ const AuthorForm = (props) => {
             </p>
             <p>
                 <label>Last Name</label><br/>
-                <input type="test" value={lastName} onChange = {(e)=>setLastName(e.target.value)}/>
+                <input type="text" value={lastName} onChange = {(e)=>setLastName(e.target.value)}/>
             </p>
             <input type="submit"/>
         </form>
